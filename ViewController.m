@@ -269,9 +269,9 @@
     
     
     
-    NSLog(@"selected seat ID is %@", [seatslist1 objectAtIndex:button.tag]);
+    NSLog(@"selected seat ID is %@", [seatslist1 objectAtIndex:button.tag-1]);
     
-     NSArray *seatsCheckList = [[seatslist1 objectAtIndex:button.tag] componentsSeparatedByString:@","];
+     NSArray *seatsCheckList = [[seatslist1 objectAtIndex:button.tag-1] componentsSeparatedByString:@","];
     
     NSLog(@"selected seat ID is %@", [seatsCheckList objectAtIndex:0]);
     
