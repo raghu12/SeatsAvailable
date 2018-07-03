@@ -63,10 +63,11 @@
     }
     
     /*Scrolling*/
-    zoomable_view.frame = CGRectMake(0, 15, final_width*seat_width, initial_seat_y*seat_height);
+    zoomable_view.frame = CGRectMake(0, 15, final_width*seat_width, initial_seat_y*seat_height+40);
     /*--*/
+   // zoomable_view.backgroundColor = [UIColor blueColor];
     
-   // zoomable_view.frame = CGRectMake(0, 15, self.frame.size.width, 180);
+    //zoomable_view.frame = CGRectMake(0, 15, self.frame.size.width, 210);
     
     [self setContentSize:zoomable_view.frame.size];
     
@@ -119,7 +120,7 @@
                                     seat_width,
                                     seat_height)];
     
-    seatButton.tag = tagValue;
+   
     
     if (!available && disabled && [conditionString isEqualToString:@"E"]) {
         [self setSteering:seatButton];
@@ -127,10 +128,13 @@
     } else if (available && disabled && [conditionString isEqualToString:@"D"]) {
         [self setSeatAsDisabled:seatButton];
     } else if (available && !disabled && [conditionString isEqualToString:@"A"]) {
+         seatButton.tag = tagValue;
         [self setSeatAsAvaiable:seatButton];
     } else if (!available && !disabled && [conditionString isEqualToString:@"U"]) {
+         seatButton.tag = tagValue;
         [self setSeatAsUnavaiable:seatButton];
     }else if (available && !disabled && [conditionString isEqualToString:@"L"]) {
+         seatButton.tag = tagValue;
         [self setLadiesSeatAsAvaiable:seatButton];
     }
     [seatButton setAvailable:available];

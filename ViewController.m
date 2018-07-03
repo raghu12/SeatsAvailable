@@ -171,7 +171,7 @@
     
     NSLog(@"map %@",map);
     
-   UIView *bookingSeatsView=[[UIView alloc]initWithFrame:CGRectMake(15, 30, self.view.frame.size.width-30, 180)];
+   UIView *bookingSeatsView=[[UIView alloc]initWithFrame:CGRectMake(15, 30, self.view.frame.size.width-30, 210)];
    // [bookingSeatsView setBackgroundColor:[UIColor yellowColor]];
     bookingSeatsView.layer.borderColor = [UIColor grayColor].CGColor;
     bookingSeatsView.layer.borderWidth = 3.0f;
@@ -191,7 +191,7 @@
     
     NSLog(@" map %@", map);
 
-    ZSeatSelector *seat = [[ZSeatSelector alloc]initWithFrame:CGRectMake(10, 0, self.view.frame.size.width-30, 180)];
+    ZSeatSelector *seat = [[ZSeatSelector alloc]initWithFrame:CGRectMake(10, 0, self.view.frame.size.width-30, 210)];
 //bookingSeatsView
     
 //    ZSeatSelector *seat = [[ZSeatSelector alloc]initWithFrame:CGRectMake(0, 30, self.view.frame.size.width, 160)];
