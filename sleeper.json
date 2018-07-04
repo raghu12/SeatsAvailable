@@ -1,0 +1,12 @@
+{
+    "code" : "0",
+    "desc" : "success",
+    "item" : {
+        "numberoflevels" : "2",
+        "rows" : "4",
+        "allseatsinfo" : "1,availSeat,0,3|6,bookedSeat,1,3|7,bookedSeat,2,3|12,availSeat,3,3|13,availSeat,4,3||2,ladiesSeat,6,3|5,ladiesSeat,7,3|8,ladiesSeat,8,3|11,bookedSeat,9,3|14,availSeat,10,3||16,availSeat,17,2|3,ladiesSeat,18,2|4,bookedSeat,19,2|9,ladiesSeat,20,2|10,ladiesSeat,21,2|15,bookedSeat,22,2||17,availSeat,24,3|22,availSeat,25,3|23,availSeat,26,3|28,availSeat,27,3|29,availSeat,28,3||18,availSeat,30,3|21,availSeat,31,3|24,availSeat,32,3|27,availSeat,33,3|30,availSeat,34,3||32,bookedSeat,41,2|19,availSeat,42,2|20,ladiesSeat,43,2|25,ladiesSeat,44,2|26,bookedSeat,45,2|31,bookedSeat,46,2|",
+        "columns" : "6",
+        "dividerrow" : "3",
+        "waitinglistseats" : "0"
+    }
+}
