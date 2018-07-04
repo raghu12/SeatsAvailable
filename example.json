@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "desc": "success",
+    "item": {
+        "allseatsinfo": "\"1,availSeat,0,1|8,availSeat,1,1|9,bookedSeat,2,1|16,availSeat,3,1|17,availSeat,4,1||24,availSeat,6,1|25,availSeat,7,1|32,availSeat,8,1|33,availSeat,9,1|40,availSeat,10,1|41,availSeat,11,1|2,availSeat,12,1|7,availSeat,13,1|10,bookedSeat,14,1|15,availSeat,15,1|18,availSeat,16,1||23,availSeat,18,1|26,availSeat,19,1|31,availSeat,20,1|34,availSeat,21,1|39,availSeat,22,1|42,availSeat,23,1|47,availSeat,35,1|3,bookedSeat,36,1|6,availSeat,37,1|11,bookedSeat,38,1|14,availSeat,39,1|19,availSeat,40,1|22,availSeat,41,1|27,availSeat,42,1|30,availSeat,43,1|35,availSeat,44,1|38,availSeat,45,1|43,availSeat,46,1|46,availSeat,47,1|4,bookedSeat,48,1|5,availSeat,49,1|12,bookedSeat,50,1|13,availSeat,51,1|20,availSeat,52,1|21,availSeat,53,1|28,availSeat,54,1|29,availSeat,55,1|36,availSeat,56,1|37,availSeat,57,1|44,availSeat,58,1|45,availSeat,59,1\"",
+        "columns": 12,
+        "dividerrow": 3,
+        "numberoflevels": 1,
+        "rows": 5,
+        "waitinglistseats": 0
+    }
+}
+
